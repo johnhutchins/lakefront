@@ -9,6 +9,8 @@ body, html {height: 100%}
 
 img {
     padding: 1%;
+    height: 15%;
+    width: 15%;
 }
 
 button {
@@ -18,4 +20,11 @@ button {
 
 a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 800px){
+    img {
+        height: 25%;
+        width: 25%;
+    }
 }
